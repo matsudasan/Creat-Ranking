@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="ランキング作成サイト" />
+    <meta property="og:description" content="簡単にランキングが作れます"/>
+    <meta property="og:url" content="ページのURL" />
+    <link rel="stylesheet" href="style.css">
+    <title>順位作成</title>
+</head>
+
+<body>
+    <header>
+        <h1>ランキング作成サイト</h1>
+        <button id="open">使い方</button>
+    </header>
+    <p　style="margin-bottom: 0;">何位まで作る</p>
+    <select id="select"></select>
+    <ul id="ranking" type="none"></ul>
+    <div id="modal">
+        <div id="explanation">
+            <p>1.何位まで作るか決める</p>
+            <p>2.画像をドラック&ドロップする</p>
+            <p>ドロップする所は背景が変わります</p>
+            <img src="images/sample.png" height="350">
+            <p>補足:画像をクリックで削除</p>
+            <button id="close">閉じる</button>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
